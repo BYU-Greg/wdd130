@@ -1,22 +1,50 @@
-nav {
-    background-color: steelblue;
+main {
+    max-width: 840px;
+    border: 1px solid steelblue;
+    background-color: bisque;
     padding: 10px;
 }
 
-nav a {
-    color: white;
+nav a{
+    color: rgb(9, 54, 150);
+    background-color: rgb(29, 216, 85);
+    padding: 10px;
     display: block;
-    padding: 20px;
 }
 
 h1 {
     color: steelblue;
 }
+aside {
+    width: 20em;
+    margin: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    background-color: #995f5f;
+    color: #333;
+    text-align: center;
+}
 
-img {
-    width: 150px;
+aside img{
+    width: 200px;
     height: auto;
-    border: 1px solid steelblue;
+    float: center;
+}
+
+main img {
+    width:150px;
+    height: auto;
+    border: 1px solid burlywood;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px grey;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
