@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Rubik&display=swap');
+
+:root {
+    --primary-color: #7d5c65;
+    --secondary-color: #736b92;
+    --accent1-color: #7c90db;
+    --accent2-color: #9593d9;
+
+    --heading-font: 'Poetsen One', sans-serif;
+    --paragraph-font: 'Rubik', sans-serif;
+
+    --nav-background-color: #387780;
+    --nav-link-color: #debd4c;
+    --nav-hover-link-color: #8d94ba;
+    --nav-hover-background-color: #9a7aa0;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 20px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
