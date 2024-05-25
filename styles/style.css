@@ -34,9 +34,10 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px grey;
 }
+
 profile-image{
     float: center;
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
