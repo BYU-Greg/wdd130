@@ -16,7 +16,7 @@ aside {
     text-align: center;
 }
 main img {
-    float: right;
+    float: left;
     margin: 0 0 1rem 1rem;
 }
 aside h2 {
