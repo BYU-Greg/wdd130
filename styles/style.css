@@ -36,8 +36,8 @@ main img {
 }
 profile-image{
     float: center;
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: auto;
 }
 
 p {
