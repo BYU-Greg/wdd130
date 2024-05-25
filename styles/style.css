@@ -29,7 +29,7 @@ aside {
 main img {
     float: right;
     width:150px;
-    height: 250px;
+    height: auto;
     border: 1px solid burlywood;
     padding: 2px;
     box-shadow: 0 0 30px grey;
