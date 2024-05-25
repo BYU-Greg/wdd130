@@ -34,7 +34,7 @@ main img {
     box-shadow: 0 0 30px grey;
 }
 profile-image{
-    float: left;
+    float: center;
     width: 200px;
     height: 400px;
 }
