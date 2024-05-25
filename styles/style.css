@@ -25,12 +25,6 @@ aside {
     text-align: center;
 }
 
-aside img{
-    float:left;
-    width: 200px;
-    height: 400px;
-}
-
 main img {
     float: right;
     width:150px;
