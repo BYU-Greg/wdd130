@@ -34,7 +34,7 @@ main img {
     box-shadow: 0 0 30px grey;
 }
 
-profile-image{
+.profile-image{
     display:block;
     margin:0 auto;
     width: 200px;
