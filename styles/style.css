@@ -5,7 +5,7 @@ main {
     padding: 10px;
 }
 
-nav a{
+nav a {
     color: rgb(9, 54, 150);
     background-color: rgb(29, 132, 216);
     padding: 10px;
@@ -15,6 +15,7 @@ nav a{
 h1 {
     color: steelblue;
 }
+
 aside {
     width: 20em;
     margin: 1em;
@@ -25,7 +26,7 @@ aside {
     text-align: center;
 }
 
-aside img{
+aside img {
     width: 200px;
     height: auto;
     float: left;
@@ -33,7 +34,7 @@ aside img{
 
 main img {
     float: right;
-    width:150px;
+    width: 150px;
     height: auto;
     border: 1px solid burlywood;
     padding: 2px;
