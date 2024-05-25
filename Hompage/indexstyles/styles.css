@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+}
+aside {
+    width: 20em;
+    text-align: center;
+}
+main img {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+aside h2 {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: rgba(255, 255, 255, 0.7); /* Optional: make background semi-transparent */
+    padding: 0.5rem;
+}
