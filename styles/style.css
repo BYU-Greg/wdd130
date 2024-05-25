@@ -16,7 +16,6 @@ h1 {
     color: steelblue;
 }
 aside {
-    float:left;
     width: 20em;
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -37,7 +36,7 @@ main img {
 
 profile-image{
     float: center;
-    width: 20px;
+    width: 200px;
     height: auto;
 }
 
