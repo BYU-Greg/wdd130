@@ -9,7 +9,7 @@
 <body>
 <h1>HTML and CSS Quiz</h1>
 <form action="submit_quiz" method="post">
-  <label for="q1">Fill in the blank: HTML stands for HyperText Markup ______.</label><br>
+  <label for="q1">Fill in the blank: HTML stands for HyperText Markup _______.</label><br>
   <input type="text" id="q1" name="q1" required><br><br>
 
   <label for="q2">What does CSS stand for?</label><br>
