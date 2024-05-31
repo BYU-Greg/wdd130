@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML and CSS Quiz</title>
+<link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+<h1>HTML and CSS Quiz</h1>
+<form action="submit_quiz.php" method="post">
+  <label for="q1">Fill in the blank: HTML stands for HyperText Markup ______.</label><br>
+  <input type="text" id="q1" name="q1" required><br><br>
+
+  <label for="q2">What does CSS stand for?</label><br>
+  <textarea id="q2" name="q2" rows="4" cols="50" required></textarea><br><br>
+
+  <label for="q3">Which of the following is a block-level element in HTML?</label><br>
+  <select id="q3" name="q3" required>
+    <option value="" selected disabled>Choose One...</option>
+    <option value="p">Paragraph</option>
+    <option value="span">Span</option>
+    <option value="a">Anchor</option>
+  </select><br><br>
+
+  <label for="q4">How many heading levels are there in HTML?</label><br>
+  <input type="number" id="q4" name="q4" min="1" required><br><br>
+
+  <button type="submit">Submit Quiz</button>
+</form>
+</body>
+</html>
