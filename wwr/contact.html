@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - RGM RAFTING COMPANY</title>
+    <meta name="description" content="Get in touch with Gregory Manato for general inquiries, reservations, or website suggestions.">
+    <link rel="stylesheet" href="rafting.css">
+</head>
+<body>
+    <header>
+        <!-- Header content here -->
+    </header>
+    <nav>
+        <!-- Navigation content here -->
+    </nav>
+    <main>
+        <section id="company-info">
+            <h2>Contact Information</h2>
+            <p>Address: 1234 Rafting St, Adventure City, CO 12345</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: contact@rafting.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <section id="employees">
+            <h2>Our Team</h2>
+            <div class="employee">
+                <img src="images/OIP (3).jpg" alt="Employee 1">
+                <p>John Doe, Manager</p>
+            </div>
+            <div class="employee">
+                <img src="images/OIP (1).jpg" alt="Employee 2">
+                <p>Jane Smith, Guide</p>
+            </div>
+            <div class="employee">
+                <img src="images/OIP (2).jpg" alt="Employee 3">
+                <p>Mike Johnson, Support</p>
+            </div>
+        </section>
+        <section id="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <p>Purpose of the message:</p>
+                <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+</body>
+</html>
